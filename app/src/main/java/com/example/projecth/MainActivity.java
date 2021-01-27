@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
 
             String maic = fu.getEmail();
 
-            if(maic.equalsIgnoreCase("hariharankvofficial@gmail.com")){
+            if(maic.equalsIgnoreCase("adminsemail@gmail.com")){
                 Intent it = new Intent(this,AdminActivity.class);
                 progressdialog.dismiss();
                 startActivity(it);
